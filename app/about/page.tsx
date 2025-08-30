@@ -54,7 +54,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 max-w-4xl mx-auto">
             <Badge variant="secondary" className="w-fit mx-auto">
-              About MedDevices Pro
+              About Gidted-hands Pro
             </Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground text-balance">
               Pioneering Healthcare Innovation
@@ -62,7 +62,7 @@ export default function AboutPage() {
             </h1>
             <p className="text-xl text-muted-foreground text-pretty max-w-3xl mx-auto">
               We are dedicated to advancing healthcare through innovative medical devices that enhance patient outcomes
-              and support healthcare professionals worldwide.
+              and support healthcare professionals nationwide.
             </p>
           </div>
         </div>
@@ -146,15 +146,15 @@ export default function AboutPage() {
                 },
                 {
                   year: "2013",
-                  title: "First FDA Approval",
-                  description: "Received FDA approval for our flagship CardioMonitor device",
+                          title: "First EFDA Approval",
+        description: "Received EFDA approval for our flagship CardioMonitor device",
                   icon: Shield,
                   side: "right",
                 },
                 {
                   year: "2016",
-                  title: "Global Expansion",
-                  description: "Expanded operations to Europe and Asia, serving 100+ hospitals",
+                  title: "NATIONAL Expansion",
+                  description: "Expanded operations , serving 100+ hospitals",
                   icon: Globe,
                   side: "left",
                 },
@@ -212,9 +212,9 @@ export default function AboutPage() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20">
             {[
-              { number: "500+", label: "Hospitals Served" },
+              { number: "50+", label: "Hospitals Served" },
               { number: "15+", label: "Years Experience" },
-              { number: "50+", label: "Countries" },
+              { number: "50+", label: "Cities" },
               { number: "1M+", label: "Patients Helped" },
             ].map((stat, index) => (
               <div key={index} className="text-center space-y-2">
@@ -245,8 +245,8 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {[
               {
-                name: "FDA Approved",
-                description: "All devices approved by the U.S. Food and Drug Administration for medical use",
+                name: "EFDA Approved",
+                description: "All devices approved by the Ethiopian Food and Drug Administration for medical use",
                 icon: Shield,
                 color: "text-primary",
               },
@@ -297,8 +297,8 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-3 gap-6">
               {[
                 {
-                  title: "FDA 510(k) Clearances",
-                  description: "Complete FDA clearance documentation for all approved devices",
+                  title: "EFDA Clearances",
+                  description: "Complete EFDA clearance documentation for all approved devices",
                   size: "2.4 MB",
                 },
                 {

@@ -39,14 +39,14 @@ const products = [
       "AI-powered arrhythmia detection",
       "Cloud connectivity",
       "24/7 remote monitoring",
-      "FDA approved",
+      "EFDA approved",
     ],
     specifications: {
       Display: "15-inch touchscreen",
       Channels: "12-lead ECG",
       "Battery Life": "8 hours continuous",
       Connectivity: "Wi-Fi, Bluetooth, Ethernet",
-      Certifications: "FDA, CE, ISO 13485",
+      Certifications: "EFDA, CE, ISO 13485",
     },
     benefits: [
       "Reduces false alarms by 60%",
@@ -304,7 +304,7 @@ export default function ProductsPage() {
               <span className="text-primary"> Every Healthcare Need</span>
             </h1>
             <p className="text-xl text-muted-foreground text-pretty max-w-3xl mx-auto">
-              Explore our comprehensive range of FDA-approved medical devices designed to enhance patient care and
+              Explore our comprehensive range of EFDA-approved medical devices designed to enhance patient care and
               support healthcare professionals worldwide.
             </p>
           </div>
@@ -504,9 +504,16 @@ export default function ProductsPage() {
                       </DialogContent>
                     </Dialog>
                   </div>
-                  <Button className="w-full bg-primary hover:bg-primary/90" onClick={() => handleAddToCart(product)}>
-                    Add to Cart
-                  </Button>
+                  <div className="flex gap-2">
+                    <Button className="flex-1 bg-primary hover:bg-primary/90" onClick={() => handleAddToCart(product)}>
+                      Add to Cart
+                    </Button>
+                    <Button variant="outline" className="flex-1" asChild>
+                      <Link href={`/inquiry?product=${encodeURIComponent(product.name)}&category=${encodeURIComponent(product.category)}`}>
+                        Quick Quote
+                      </Link>
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             ))}
@@ -540,8 +547,10 @@ export default function ProductsPage() {
             Our medical device specialists are here to help you find the perfect solution for your healthcare facility.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary">
-              Speak with a Specialist
+            <Button size="lg" variant="secondary" asChild>
+              <Link href="/inquiry">
+                Get Bulk Quote
+              </Link>
             </Button>
             <Button
               size="lg"
