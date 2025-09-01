@@ -37,7 +37,7 @@ export default function LoginPage() {
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
               <Heart className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-foreground">MedDevices Pro</span>
+              <span className="text-xl font-bold text-foreground">GIFTED-HANDS</span>
             </Link>
           </div>
         </div>

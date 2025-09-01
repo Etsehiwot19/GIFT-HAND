@@ -15,7 +15,7 @@ export default function AboutPage() {
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
               <Heart className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-foreground">MedDevices </span>
+              <span className="text-xl font-bold text-foreground">GIFTED-HANDS </span>
             </Link>
 
             <div className="hidden md:flex items-center space-x-8">
@@ -54,11 +54,11 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 max-w-4xl mx-auto">
             <Badge variant="secondary" className="w-fit mx-auto">
-              About Gidted-hands Pro
+              About Gifted-hands 
             </Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground text-balance">
               Pioneering Healthcare Innovation
-              <span className="text-primary"> Since 2010</span>
+              <span className="text-primary"> Since 2003</span>
             </h1>
             <p className="text-xl text-muted-foreground text-pretty max-w-3xl mx-auto">
               We are dedicated to advancing healthcare through innovative medical devices that enhance patient outcomes
@@ -103,7 +103,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl p-8">
                 <Image
-                  src="/medical-team-using-advanced-devices-hospital.png"
+                  src="/medical teams using advanced.png"
                   alt="Medical team using advanced devices"
                   width={600}
                   height={500}
@@ -138,42 +138,42 @@ export default function AboutPage() {
             <div className="space-y-12">
               {[
                 {
-                  year: "2010",
+                  year: "2003",
                   title: "Company Founded",
                   description: "Started with a vision to revolutionize medical device technology",
                   icon: Building,
                   side: "left",
                 },
                 {
-                  year: "2013",
+                  year: "2006",
                           title: "First EFDA Approval",
         description: "Received EFDA approval for our flagship CardioMonitor device",
                   icon: Shield,
                   side: "right",
                 },
                 {
-                  year: "2016",
+                  year: "2009",
                   title: "NATIONAL Expansion",
                   description: "Expanded operations , serving 100+ hospitals",
                   icon: Globe,
                   side: "left",
                 },
                 {
-                  year: "2019",
+                  year: "2012",
                   title: "AI Integration",
                   description: "Launched AI-powered diagnostic capabilities across our product line",
                   icon: Award,
                   side: "right",
                 },
                 {
-                  year: "2022",
+                  year: "2015",
                   title: "500th Hospital Partnership",
                   description: "Reached milestone of serving 500+ healthcare facilities worldwide",
                   icon: Users,
                   side: "left",
                 },
                 {
-                  year: "2024",
+                  year: "2017",
                   title: "Next-Gen Devices",
                   description: "Introduced revolutionary surgical assistance and monitoring systems",
                   icon: CheckCircle,
@@ -364,7 +364,7 @@ export default function AboutPage() {
             <div className="space-y-4">
               <Link href="/" className="flex items-center space-x-2">
                 <Heart className="h-6 w-6 text-primary" />
-                <span className="text-lg font-bold">MedDevices Pro</span>
+                <span className="text-lg font-bold">Gifted-hands</span>
               </Link>
               <p className="text-muted-foreground text-sm">
                 Empowering healthcare with trusted medical devices since 2010.
@@ -405,7 +405,7 @@ export default function AboutPage() {
           </div>
 
           <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-            © 2024 MedDevices Pro. All rights reserved. | Privacy Policy | Terms of Service
+            © 2017 Gifted-hands. All rights reserved. | Privacy Policy | Terms of Service
           </div>
         </div>
       </footer>
