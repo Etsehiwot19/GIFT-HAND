@@ -21,7 +21,7 @@ export default function HomePage() {
       id: 1,
       title: "CardioMonitor Pro",
       description: "Advanced cardiac monitoring system with real-time analytics and AI-powered insights.",
-      image: "/cardiac-monitoring-device-medical-equipment.png",
+      image: "/cardio monitor.png",
       badge: "Best Seller",
       price: 45000,
       category: "Cardiac Monitoring",
@@ -31,7 +31,7 @@ export default function HomePage() {
       id: 2,
       title: "SurgicalAssist X1",
       description: "Precision surgical assistance robot with haptic feedback and 4K visualization.",
-      image: "/surgical-robot-medical-device-operating-room.png",
+      image: "/surgical assistant with robot.png",
       badge: "New Arrival",
       price: 125000,
       category: "Surgical Equipment",
@@ -41,7 +41,7 @@ export default function HomePage() {
       id: 3,
       title: "VitalSense Monitor",
       description: "Comprehensive vital signs monitoring with wireless connectivity and alerts.",
-      image: "/vital-signs-monitor-medical-device-hospital.png",
+      image: "/vital sense monitor.png",
       badge: "Limited Offer",
       price: 18000,
       category: "Patient Monitoring",
@@ -166,7 +166,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl p-8">
                 <Image
-                  src="/modern-medical-devices-in-hospital-setting-with-he.png"
+                  src="/Medical instruments.png"
                   alt="Medical devices in hospital setting"
                   width={600}
                   height={500}
@@ -241,7 +241,7 @@ export default function HomePage() {
                   </div>
 
                   <div className="flex items-center justify-between pt-2">
-                    <div className="text-lg font-semibold text-primary">${product.price.toLocaleString()}</div>
+                    <div className="text-lg font-semibold text-primary">ETB {product.price.toLocaleString()}</div>
                   </div>
 
                   <div className="flex gap-2">
@@ -483,7 +483,7 @@ export default function HomePage() {
           </div>
 
           <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-            © 2024 Gifted-hands. All rights reserved. | Privacy Policy | Terms of Service
+            © 2017 Gifted-hands . All rights reserved. | Privacy Policy | Terms of Service
           </div>
         </div>
       </footer>
