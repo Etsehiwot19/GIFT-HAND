@@ -7,9 +7,7 @@ import { CartProvider } from "@/contexts/cart-context"
 import { AuthProvider } from "@/contexts/auth-context"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.app",
+  title: "GIFTED-HANDS",
 }
 
 export default function RootLayout({
