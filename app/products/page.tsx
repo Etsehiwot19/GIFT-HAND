@@ -27,7 +27,7 @@ const products = [
     name: "CardioMonitor Pro",
     category: "Cardiac Monitoring",
     price: 45000,
-    image: "/cardiac-monitoring-device-medical-equipment.png",
+    image: "/Cardio monitor.png",
     badge: "Best Seller",
     badgeVariant: "default" as const,
     rating: 4.9,
@@ -60,7 +60,7 @@ const products = [
     name: "SurgicalAssist X1",
     category: "Surgical Equipment",
     price: 125000,
-    image: "/surgical-robot-medical-device-operating-room.png",
+    image: "/surgical assistant with robot.png",
     badge: "New Arrival",
     badgeVariant: "secondary" as const,
     rating: 4.8,
@@ -93,7 +93,7 @@ const products = [
     name: "VitalSense Monitor",
     category: "Patient Monitoring",
     price: 18000,
-    image: "/vital-signs-monitor-medical-device-hospital.png",
+    image: "/vital sense monitor.png",
     badge: "Limited Offer",
     badgeVariant: "destructive" as const,
     rating: 4.7,
@@ -125,7 +125,7 @@ const products = [
     name: "DiagnosticPro Scanner",
     category: "Diagnostic Equipment",
     price: 85000,
-    image: "/diagnostic-ultrasound-scanner-medical-device.png",
+    image: "/diagnostic pro scanner.png",
     badge: "Popular",
     badgeVariant: "secondary" as const,
     rating: 4.6,
@@ -158,7 +158,7 @@ const products = [
     name: "InfusionSmart Pump",
     category: "Infusion Systems",
     price: 12000,
-    image: "/smart-infusion-pump-medical-device.png",
+    image: "/infusion smart pump.png",
     badge: "Certified",
     badgeVariant: "default" as const,
     rating: 4.8,
@@ -179,7 +179,7 @@ const products = [
     name: "RespiCare Ventilator",
     category: "Respiratory Care",
     price: 35000,
-    image: "/mechanical-ventilator-respiratory-care-device.png",
+    image: "/respicare ventilator r.png",
     badge: "Advanced",
     badgeVariant: "secondary" as const,
     rating: 4.9,
@@ -261,7 +261,7 @@ export default function ProductsPage() {
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
               <Heart className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-foreground">MedDevices Pro</span>
+              <span className="text-xl font-bold text-foreground">GIFTED-HANDS</span>
             </Link>
 
             <div className="hidden md:flex items-center space-x-8">
@@ -404,7 +404,7 @@ export default function ProductsPage() {
                   </div>
 
                   <div className="flex items-center justify-between pt-4">
-                    <div className="text-lg font-semibold text-primary">${product.price.toLocaleString()}</div>
+                    <div className="text-lg font-semibold text-primary">ETB {product.price.toLocaleString()}</div>
                     <Dialog>
                       <DialogTrigger asChild>
                         <Button variant="outline">
@@ -488,7 +488,7 @@ export default function ProductsPage() {
 
                             <div className="space-y-4 pt-4 border-t border-border">
                               <div className="text-xl font-semibold text-primary">
-                                ${product.price.toLocaleString()}
+                                ETB {product.price.toLocaleString()}
                               </div>
                               <div className="flex flex-col sm:flex-row gap-3">
                                 <Button className="flex-1" onClick={() => handleAddToCart(product)}>
@@ -570,7 +570,7 @@ export default function ProductsPage() {
             <div className="space-y-4">
               <Link href="/" className="flex items-center space-x-2">
                 <Heart className="h-6 w-6 text-primary" />
-                <span className="text-lg font-bold">MedDevices Pro</span>
+                <span className="text-lg font-bold">Gifted-hands</span>
               </Link>
               <p className="text-muted-foreground text-sm">
                 Empowering healthcare with trusted medical devices since 2010.
@@ -611,7 +611,7 @@ export default function ProductsPage() {
           </div>
 
           <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-            © 2024 MedDevices Pro. All rights reserved. | Privacy Policy | Terms of Service
+            © 2017 Giifted-hands. All rights reserved. | Privacy Policy | Terms of Service
           </div>
         </div>
       </footer>
