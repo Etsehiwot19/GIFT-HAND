@@ -31,9 +31,9 @@ export default function AboutPage() {
               <a href="#certifications" className="text-foreground hover:text-primary transition-colors">
                 Certifications
               </a>
-              <a href="#contact" className="text-foreground hover:text-primary transition-colors">
+              <Link href="/contact" className="text-foreground hover:text-primary transition-colors">
                 Contact
-              </a>
+              </Link>
             </div>
 
             <div className="flex items-center space-x-4">
@@ -41,8 +41,8 @@ export default function AboutPage() {
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
                 <Input placeholder="Search products..." className="pl-10 w-64" />
               </div>
-              <Button variant="outline" size="sm">
-                Contact Sales
+              <Button variant="outline" size="sm" asChild>
+                <Link href="/contact">Contact Sales</Link>
               </Button>
             </div>
           </div>

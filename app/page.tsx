@@ -86,9 +86,9 @@ export default function HomePage() {
               <a href="/about#certifications" className="text-foreground hover:text-primary transition-colors">
                 Certifications
               </a>
-              <a href="#contact" className="text-foreground hover:text-primary transition-colors">
+              <Link href="/contact" className="text-foreground hover:text-primary transition-colors">
                 Contact
-              </a>
+              </Link>
             </div>
 
             <div className="flex items-center space-x-4">

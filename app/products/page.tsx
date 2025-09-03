@@ -277,15 +277,15 @@ export default function ProductsPage() {
               <a href="/about#certifications" className="text-foreground hover:text-primary transition-colors">
                 Certifications
               </a>
-              <a href="#contact" className="text-foreground hover:text-primary transition-colors">
+              <Link href="/contact" className="text-foreground hover:text-primary transition-colors">
                 Contact
-              </a>
+              </Link>
             </div>
 
             <div className="flex items-center space-x-4">
               <CartSidebar />
-              <Button variant="outline" size="sm">
-                Contact Sales
+              <Button variant="outline" size="sm" asChild>
+                <Link href="/contact">Contact Sales</Link>
               </Button>
             </div>
           </div>
