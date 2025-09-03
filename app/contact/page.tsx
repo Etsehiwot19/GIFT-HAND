@@ -58,7 +58,7 @@ export default function ContactPage() {
                 <Mail className="h-5 w-5 text-primary mt-1" />
                 <div>
                   <div className="font-medium">Email</div>
-                  <div className="text-muted-foreground">support@giftedhands.example</div>
+                  <div className="text-muted-foreground">support@Giftedhands.example</div>
                 </div>
               </CardContent>
             </Card>
