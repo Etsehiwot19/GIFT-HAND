@@ -21,7 +21,7 @@ export default function HomePage() {
       id: 1,
       title: "CardioMonitor Pro",
       description: "Advanced cardiac monitoring system with real-time analytics and AI-powered insights.",
-      image: "/cardio monitor.png",
+      image: "/Cardio monitor.png",
       badge: "Best Seller",
       price: 45000,
       category: "Cardiac Monitoring",
